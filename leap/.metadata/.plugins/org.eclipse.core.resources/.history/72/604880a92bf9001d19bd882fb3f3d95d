@@ -1,0 +1,23 @@
+
+public class Ashok {
+
+	public static void main(String[] args) {
+		scanner scan=new scan("system.in");
+		System.out.println("Enter bill unit");
+		int unit(scan.next int);
+		double amount=0;
+		if(unit<=100) {
+			amount=unit*3.75;
+		}
+		else if(unit<=300) {
+			amount=unit*5.65;
+		}
+		else
+		{
+			amount=unit*7.78;
+		}
+		System.out.println("bill amount;"+amount);
+
+	}
+
+}
